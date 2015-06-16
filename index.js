@@ -1,3 +1,3 @@
 module.exports={
-  ConsoleAdapter: require('./lib/consoleadapter')
+  ConsoleAdapter: require('./lib/consoleadapter').ConsoleAdapter
 };
