@@ -1,0 +1,24 @@
+{
+  "name": "precis-console-adapter",
+  "version": "0.0.1",
+  "description": "A console adapter for Precis Logging Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/precis-logging/console-adapter.git"
+  },
+  "keywords": [
+    "Precis",
+    "Logging",
+    "Console"
+  ],
+  "author": "Jeremy Darling <jeremy.darling@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/precis-logging/console-adapter/issues"
+  },
+  "homepage": "https://github.com/precis-logging/console-adapter",
+}
