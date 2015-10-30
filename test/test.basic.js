@@ -41,4 +41,13 @@ describe('Console Logger Adapter', function(){
     });
     adapter.push({level: 40, some: 'data'}, noop);
   });
+  it('Should work with no options', function(done){
+    var adapter = new Adapter();
+    var oldLog = console.log;
+    console.log = noop;
+    adapter.push({level: 10, some: 'data'}, function(){
+      console.log = oldLog;
+      done();
+    });
+  });
 });
