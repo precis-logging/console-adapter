@@ -1,6 +1,6 @@
 {
   "name": "precis-console-adapter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A console adapter for Precis Logging Client",
   "main": "index.js",
   "scripts": {
